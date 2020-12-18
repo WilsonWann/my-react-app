@@ -1,21 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Clock from './app/Clock';
-import Toggle from './app/Toggle';
-import LoginControl from './app/LoginControl';
-import Page from './app/Page';
+import NameForm from './app/NameForm';
+import EssayForm from './app/EssayForm';
+import FavoriteForm from './app/FavoriteForm';
+import Reservation from './app/Reservation';
+import WelcomeDialog from './app/WelcomeDialog';
+import Calculator from './app/Calculator';
 import reportWebVitals from './reportWebVitals';
 
 
 
 ReactDOM.render(
   <div>
-    <Clock />
-    <Toggle />
-    <LoginControl />
-    <Page />
+    <NameForm />
+    <EssayForm />
+    <FavoriteForm />
+    <Reservation />
+    <Calculator />
+    <WelcomeDialog />
   </div>,
   document.getElementById('root')
 );
